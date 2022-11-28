@@ -42,19 +42,26 @@
 
 If I had to pick one meta-resource for choosing your learning materials it would be:
 
-*   CLass Central
+*   Class Central
 
-If I had to pick a few resources for getting started it would be
+If I had to pick a small number of resources for getting started in each of these skills it would be
 
-*   Scrimba, Microsoft Learn, YouTube or EdX for HTML, CSS & Javascript.
-*   YouTube or EdX for VS Code, Git & GitHub.
-*   EdX, Coursera & Udemy for consolidating HTML, CSS, Javascript & React (IBM, W3C, Harvard, Hong Kong, UC Davis, Colt Steele, etc)
-*   DataCamp, Codecademy, SoloLearn, W3 Schools etc for basic SQL
-*   EdX & Coursera for Python & more Javascript & more SQL (Harvard, Stanford, MIT, IBM, UC Davis, UMichigan)
-*   Codecademy or Coursera (Princeton, Duke & UC San Diego) for Java
-*   Udemy (Colt Steele), FreeCodeCamp & LinkedIn for more SQL
-*   Coursera (UMichigan), FreeCodeCamp, Udemy & ISTQB for testing
-
+*   VS Code:
+    *   YouTube;
+*   Git, GitHub, HTML, CSS, Javascript & React:
+    *   Scrimba, Microsoft Learn, YouTube, EdX, Coursera, Udemy;
+*   SQL:
+    *   DataCamp, Codecademy, SoloLearn, W3 Schools, EdX (Stanford), Coursera, Udemy;
+*   Computer Science:
+    *   EdX & Coursera (Harvard, MIT, Stanford, Princeton);
+*   Python:
+    *   EdX & Coursera (Harvard, MIT, UMichigan);
+*   Java:
+    *   Codecademy or Coursera (Princeton, Duke & UC San Diego);
+*   Testing:
+    *   Coursera (UMichigan), FreeCodeCamp, Udemy & ISTQB;
+*   Anything else:
+    *   Look it up on Class Central, Udemy & YouTube
 
 Although these skills can be learnt in many different orders, I suggest starting with the order I have given here.
 
@@ -137,20 +144,23 @@ There are basically two types of alternative to VS Code that are meaningully dif
 
 ### **Version control**
 
-#### **Git**
+#### **Git & Github**
+
+Complete the following steps, using documentation or tutorials where necessary.
+
+1. Decide what e-mail address to use for Git commits, perhaps setting up a new one for that purpose if you want privacy but also want people to be able to contact you through your commit email address.
+2. Create a GitHub account. If you do settle on a real email address rather than a no-reply address, use that to create your account.
+3. Create a new repository on GitHub
+4. Follow a tutorial on how to set up Git on your machine through your command line.
+5. Link Git to your GitHub account & clone your GitHub repository down to your machine.
+6. Follow a tutorial like Colt Steele's that shows how to do things in the opposite order, initialising an account and a repo on the machine & pushing it up to GitHub.
+7. Complete a course like Colt Steele's that goes into detail about using both.
+
+If you don't want to use GitHub at all, just do a Git-only tutorial, like the first half of Colt Steele's course, but I wouldn't recommend this.
 
 #### Courses:
 
-*   FreeCodeCamp (Free)
-*   John Hopkins University (Freemium)
-*   Colt Steele (Free/Paid)
-
-#### **Github (Repository hosting)**
-
-#### Courses:
-
-*   FreeCodeCamp (Free)
-*   John Hopkins University (Freemium)
+*   YouTube/FreeCodeCamp/Microsoft Learn (Free)
 *   Colt Steele (Free/Paid)
 
 **Choose your adventure**
@@ -271,10 +281,16 @@ Although my suggestion is to learn the fundamental language-agnostic skills like
 *   UC San Diego (Paid with free trial)
 *   Codecademy (Free)
 
+#### **C#**
+
+*   Microsoft Learn
+*   YouTube
+*   SoloLearn
+
 #### **Node.js**
 
 *   YouTube (Free)
-*   FreeCodeCampe (Free)
+*   FreeCodeCamp (Free)
 
 #### **DevOps, Cloud, AWS, Linux, Cybersecurity, Servers etc**
 
