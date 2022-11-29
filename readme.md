@@ -205,7 +205,7 @@ If you don't want to use GitHub at all, just do a Git-only tutorial, like the fi
 *   YouTube/FreeCodeCamp/Microsoft Learn (Free)
 *   Colt Steele (Free/Paid)
 
-###3 Resources:
+### Resources:
 
 *   https://git-scm.com/
 *   https://gitignore.io/
