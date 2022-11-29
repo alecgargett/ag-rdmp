@@ -6,38 +6,49 @@
 **Mini-map**
 ------------
 
-*   Fundamentals for all coding professions
-    *   Command-line interfaces
+*   [Fundamentals for all coding professions](#fundamentals-for-all-coding-professions)
+    *   [Command-line interfaces](#command-line-interfaces)
         *   Mac/UNIX and Linux: Bash
         *   Windows: Command prompt (cmd), Git Bash, Powershell and Terminal
-    *   Source-code editors
+    *   [Source-code editors](#source-code-editors)
         *   VS Code
         *   Other source-code editors
-    *   Version control
+    *   [Version control](#version-control)
         *   Git
         *   Repo hosting
             *   Github
-*   Choose your own adventure
-*   Front-end skills
-    *   HTML
-    *   CSS
+    *   [Markdown](#markdown)
+*   [Choose your adventure](#choose-your-adventure)
+*   [Front-end skills](#front-end-skills)
+    *   [HTML, CSS and Javascript](#html-css-and-javascript)
+    *   [CSS](#css)
+        *   CSS Grid
+        *   Flexbox
         *   Bootstrap
         *   Tailwind
-    *   Javascript
+    *   [Javascript](#javascript)
         *   React
             *   Vite
             *   Turbopack
             *   Next.js
-            *   Redux
-*   Back-end developer skills
-    *   Python
+        *   Typescript
+        *   Astro
+        *   Redux
+*   [Back-end developer skills](#back-end-developer-skills)
+    *   [Python](#python)
         *   Django
         *   Flask
-    *   SQL
-    *   Java
-    *   C#
-    *   Data Analytics
-*   Advanced skills for all coding professions
+    *   [SQL](#sql)
+    *   [Java](#java)
+    *   [C#](#c)
+    *   [Data science, data analytics and data engineering](#data-science-data-analytics-and-data-engineering)
+    *   [Node.js](#nodejs)
+    *   [DevOps, Cloud, AWS, Linux, Cybersecurity, Servers etc](#devops-cloud-aws-linux-cybersecurity-servers-etc)
+    *   [Go](#go)
+    *   [Rust](rust)
+*   [Further skills for all coding professions](#further-skills-for-all-coding-professions)
+    *   [Testing](testing)
+        *   Unit testing
 
 **Fundamentals for all coding professions**
 ---------------------------------------
@@ -65,17 +76,27 @@ If I had to pick a small number of resources for getting started in each of thes
 *   Anything else:
     *   Look it up on Class Central, Udemy and YouTube
 
-Although these skills can be learnt in many different orders, I suggest starting with the order I have given here.
+### **Fundamentals first**
 
-Rather than starting with a specific coding language, I'd recommend starting with the fundamentals that everyone needs to know. Other roadmaps tend to delay the learning of these fundamental skills or even forget to mention some of them entirely, but since they are essential to the workflow of any language, you may as well get them right form the start.
+Although these skills can be learnt in many different orders, rather than starting with a specific coding language, I'd recommend starting with the fundamentals that everyone needs to know like yout text editor features and version control. Other roadmaps tend to delay the learning of these fundamental skills or even forget to mention some of them entirely, but since they are essential to the workflow of any language, you may as well get them right from the start.
+
+### **Move on as soon as you like**
 
 You don't need to be a master of each of these skills to move onto the next step in the road map. The basics are enough for now. In fact, generally speaking, you should just learn the bare minimum you need to move onto the next skill, as the add-on tool skills like React are often more practical and don't generally require comprehensive mastery of the previous levels. You can then come back and deepen the more fundamental skills as needed.
 
+### **Google it**
+
 If you don't know what a command-line interface is, or anything else mentioned in this roadmap for that matter, and a link is not provided, web search it (Google it) and have a quick read of the definition.
 
-If you're more interested in the back-end, you might start coming across skills that you don't feel you need once you get to the front-end skills section. That's where it becomes a choose your own adventure, but honestly I think even if you want to become a backend developer, you need to know the absolute basics of HTML and CSS, and it isn't a bad place to start. As a markup language, HTML is much simpler than even python, so it's a great language to practice with while you're still mastering the basics of VC Code and Version Control. Building your own portoflio website to show off your back-end skills is not necessary to find back-end developer work, but it's not a bad idea, and if you want to do it, it will require front-end skills. Meanwhile, you don't need back-end skills to show off your front-end skills. You can immediately start showing off what you've learnt with GitHub pages for example.
+### **Choose your own adventure**
 
-On the other hand, the corresponding argument can also be made that even if you want to be a fron-end web developer, learning python fairly early on isn't a bad idea in order to [automate the boring stuff](https://automatetheboringstuff.com/>). In addition, there are high quality freemimum courses in Python program from universities like Harvard and MIT, some of which also serve as a good general introduction to computer science. I'd still lean towards learning HTML and CSS first because it's probably easier for most people, but it's not a bad idea to learn python early on too.
+#### **Front-end for back-end developers**
+
+If you're more interested in the back-end, you might start coming across skills that you don't feel you need once you get to the front-end skills section. That's where it becomes a choose your own adventure, but honestly I think even if you want to become a back-end developer, you need to know the absolute basics of HTML and CSS, and it isn't a bad place to start. As a markup language, HTML is much simpler than even python, so it's a great language to practice with while you're still mastering the basics of VC Code and Version Control. Building your own portoflio website to show off your back-end skills is not necessary to find back-end developer work, but it's not a bad idea, and if you want to do it, it will require front-end skills. Meanwhile, you don't need back-end skills to show off your front-end skills. You can immediately start showing off what you've learnt with GitHub pages for example.
+
+#### **Back-end for front-end developers**
+
+On the other hand, the corresponding argument can also be made that even if you want to be a front-end web developer, learning python fairly early on isn't a bad idea in order to [automate the boring stuff](https://automatetheboringstuff.com/>). In addition, there are high quality freemimum courses in Python program from universities like Harvard and MIT, some of which also serve as a good general introduction to computer science. I'd still lean towards learning HTML and CSS first because it's probably easier for most people, but it's not a bad idea to learn python early on too.
 
 Another back-end skill you may want to learn fairly early on even if you want to be a front-end developer is SQL, if only because for many entry level positions this seems to be the skill that help the most for getting the job, and you can always keep learning front-end development in your own time if you aren't learning enough on the job.
 
@@ -106,22 +127,25 @@ Here are some of the best resources overall for coding skills. You can check the
 *   Exercism
 *   Leetcode
 *   Hackerrank
+*   Neetcode
 
 ### **Command-line interfaces**
 
-Read some cheat sheets of the most basic commands in the command-line interfaces of your system: bash (Mac/UNIX, Linux and Git Bash on Windows) and cmd (Windows only). I've made a thread of cheat sheets here:
+Read some cheat sheets of the most basic commands in the command-line interfaces of your system: bash (Mac/UNIX, Linux and Git Bash on Windows) and cmd (Windows only). Here are some general cheat sheet resources for both systems:
 
-*   [https://twitter.com/AGDCode/status/1596817607893471232](https://twitter.com/AGDCode/status/1596817607893471232)
+*   [Twitter thread of command-line and markup cheat sheets](https://twitter.com/AGDCode/status/1596817607893471232)
+*   [Mastodon toot of command-line and markup cheat sheets](https://social.tchncs.de/@Alec/109424281623611681)
+*   [Geeks For Geeks Windows vs Linux command line table](https://www.geeksforgeeks.org/linux-vs-windows-commands/)
 
-Tip: Ctrl+C can be used to terminate any process. For example, if you type "mk" and hit enter without naming the new directory, you will be asked some questions that no beginner is likely to understand, so type Ctrl+C to cancel.
+**Tip**: Ctrl+C can be used to terminate any process. For example, if you type "mk" and hit enter without naming the new directory, you will be asked some questions that no beginner is likely to understand, so type Ctrl+C to cancel.
 
 **Mac/UNIX and Linux: Bash (Bourne Again Shell)**
 
 It'll probably be on your Mac or Linux system already, but you may wish to update to the latest version, using a web search for instructions.
 
-Cheat sheet:
+[Cheat sheet twitter thread](https://twitter.com/AGDCode/status/1597120304803119104)
 
-*   [https://twitter.com/Shubham_pen/status/1596364373198401536](https://twitter.com/Shubham_pen/status/1596364373198401536)
+[Windows vs Linux Geeks For Geeks command line cheat sheet](https://twitter.com/AGDCode/status/1597120304803119104)
 
 Courses:
 
@@ -130,7 +154,7 @@ Courses:
 
 **Windows: Command prompt (cmd), Git Bash, Powershell and Terminal**
 
-These should be on your Windows system already, but you may wish to understand the difference between, for example from these two articles:
+These should be on your Windows system already, but you may wish to understand the difference between them, for example from these two articles:
 
 *   https://www.makeuseof.com/windows-terminal-vs-powershell/
 *   https://www.atlassian.com/git/tutorials/git-bash
@@ -142,14 +166,11 @@ or if you prefer video that much, from some of these videos:
 *   https://www.youtube.com/results?search\_query=powershell+vs
 *   https://www.youtube.com/results?search\_query=windows+terminal+vs
 
-Cheat sheets:
+[Cheat sheet](https://twitter.com/AGDCode/status/1597119605591670785)
 
-*   [https://twitter.com/AGDCode/status/1596817607893471232](https://twitter.com/AGDCode/status/1596817607893471232)
-*   [https://twitter.com/AGDCode/status/1596815746180747264](https://twitter.com/AGDCode/status/1596815746180747264)
-*   [https://www.geeksforgeeks.org/linux-vs-windows-commands/](https://www.geeksforgeeks.org/linux-vs-windows-commands/)
-*   [https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html](https://www.cs.princeton.edu/courses/archive/spr05/cos126/cmd-prompt.html)
+[Creating fies with cmd](https://techpp.com/2021/08/22/create-file-using-command-prompt-guide/)
 
-Tip: Windows often has more tha one version of PowerShell installed. Searching for "pswh" instead of "PowerShell" will generally bring up the more recent version.
+Tip: Windows often has more than one version of PowerShell installed. Searching for "pswh" instead of "PowerShell" will generally bring up the more recent version.
 
 ### **Source-code editors**
 
@@ -157,13 +178,13 @@ Some roadmaps neglect to mention that learning to use a code editor efficiently 
 
 #### **VS Code**
 
-VS code is what is generally recommended, and with good reasons. It is a great editor (and more), but there are plenty of great free resources on how to use it efficiently, including YouTube [videos](https://www.youtube.com/results?search_query=visual+studio+code) and [playlists](https://www.youtube.com/results?search_query=visual+studio+codeandsp=EgIQAw), and some basic introductory articles such as this one: https://www.codecademy.com/article/visual-studio-code or if you want to buy a short course, there are some on Coursera and Udemy.
+VS code is what is generally recommended, and with good reasons. It is a great editor (and more), but there are plenty of great free resources on how to use it efficiently, including YouTube [videos](https://www.youtube.com/results?search_query=visual+studio+code) and [playlists](https://www.youtube.com/results?search_query=visual+studio+codeandsp=EgIQAw), and some basic introductory articles such as [this one](https://www.codecademy.com/article/visual-studio-code) from Codecademy, or if you want to buy a short course, there are some on Coursera and Udemy.
 
 #### **Other source-code editors**
 
 There are basically two types of alternative to VS Code that are meaningully different in functionality: command line editors that are desinged to be used without a mouse like Vim and NeoVim, and IDEs like those from JetBrains, which are designed to offer more features (that you probably won't need as a beginner), and are often premium paid products. The best bet, until you have a very good reason not to, is to use VS Code.
 
-### **Version control**
+### **Version Control**
 
 #### **Git and Github**
 
@@ -184,6 +205,12 @@ If you don't want to use GitHub at all, just do a Git-only tutorial, like the fi
 *   YouTube/FreeCodeCamp/Microsoft Learn (Free)
 *   Colt Steele (Free/Paid)
 
+### **Markdown**
+
+Markdown is a a great tool. It's a markup language that is generally used for README files, to give them basic formatting, which makes them look much better than a plain text file while being easy to write in any plain text editor. GitHub supports Markdown README files by default, such that the file you will see open when you open a repository is the formatted readme.ms file if one is present.
+
+Markdown can also be easily converted to HTML with various tools such as the Markdown All in One extension in VS Code (I recommend turning off "Auto update TOC on save" at the bottom of the settings), https://markdowntohtml.com and $md = ConvertFrom-Markdown in Windows PWSH. This a great way to start any website that requires a fair amount of text and basic formatting, because it's easier way to format text with markdown than with HTML. More detail on conversion options can be found here: https://adamtheautomator.com/convert-markdown-to-html/
+
 **Choose your adventure**
 ---------------------
 
@@ -191,8 +218,7 @@ Although my suggestion is to learn the fundamental language-agnostic skills like
 
 **Front-end skills**
 ----------------
-
-## **HTML**
+## **HTML, CSS and Javascript**
 
 #### **References**:
 
@@ -206,44 +232,40 @@ Although my suggestion is to learn the fundamental language-agnostic skills like
 *   Scrimba [Learn HTML and CSS](https://scrimba.com/learn/htmlandcss) (Free)
 *   FreeCodeCamp (Free)
 *   Microsoft Learn (Free)
-*   IBM (Freemium)
-*   John Hopkins University (Freemium)
-*   Colt Steele (Free/Paid)
-
-**CSS**
----
-
-#### **Courses**:
-
-*   Scrimba [Learn HTML and CSS](https://scrimba.com/learn/htmlandcss) (Free)
-*   YouTube/Developedbyed
-*   FreeCodeCamp (Free)
-*   Microsoft Learn (Free)
-*   IBM (Freemium)
-*   John Hopkins University (Freemium)
+*   EdX
+    *   W3C (180-190 hours) (Freemium)
+    *   IBM (Freemium) (4-8 hours)
+*   Youtube project tutorials
+*   Coursera
+    *   John Hopkins University (Freemium) (40 hours)
+    *   Meta Front-End Developer Certificate (180-190 hours) (HTML, CSS, JS, Git/GitHub, React)
 *   Colt Steele (Free/Paid)
 *   Udemy projects
 
 ### **CSS Grid**
 
 *   Scrimba (Free)
+*   Youtube project tutorials
 *   Udemy projects
 
 ### **Flexbox**
 
 *   Scrimba (Free)
+*   Youtube project tutorials
 *   Udemy projects
 
 ### **Bootstrap**
 
 *   FreeCodeCamp (Free)
 *   Scrimba (Free)
-*   Udemy/Scrimba/Youtube/Microsoft free tutorials
+*   Udemy/Youtube/Microsoft free project tutorials
 *   John Hopkins University (Freemium)
 *   Hong Kong University (Paid with free trial)
 *   Udemy projects
 
 ### **Tailwind**
+
+*   Youtube/Udemy project tutorials
 
 **Javascript**
 ----------
@@ -267,26 +289,22 @@ Although my suggestion is to learn the fundamental language-agnostic skills like
 *   Hong Kong University (Paid with free trial)
 *   Udemy projects
 
-#### **Vite**
+#### **Vite, Turbopack, Next.js, Redux, Typescript, Astro**
 
 *   Official resources
 *   YouTube
 
-#### **Turbopack**
-
-*   Official resources
-
 **Back-end skills**
 --------------------------------
 
-#### **Python**
+### **Python**
 
 *   Harvard University (Freemium)
 *   MIT (Freemium)
 *   Scrimba (Free)
 *   Udemy projects
 
-#### **SQL**
+### **SQL**
 
 *   W3Schools (Free)
 *   FreeCodeCamp (Free)
@@ -295,39 +313,42 @@ Although my suggestion is to learn the fundamental language-agnostic skills like
 *   Data Camp (Paid)
 *   Udemy projects
 
-#### **Java**
+### **Java**
 
 *   Princeton University (Freemium)
 *   Duke University (Paid with free trial)
 *   UC San Diego (Paid with free trial)
 *   Codecademy (Free)
 
-#### **C#**
+### **C#**
 
 *   Microsoft Learn
 *   YouTube
 *   SoloLearn
 
-#### **Data Analytics**
+### **Data science, data analytics and data engineering**
 
-#### **Node.js**
+*   Coursera/Google
+*   EdX
+
+### **Node.js**
 
 *   YouTube (Free)
 *   FreeCodeCamp (Free)
 
-#### **DevOps, Cloud, AWS, Linux, Cybersecurity, Servers etc**
+### **DevOps, Cloud, AWS, Linux, Cybersecurity, Servers etc**
 
 *   EdX and Coursera
 *   Udemy projects
 
-#### **Go**
+### **Go**
 
 *   Microsoft Learn
 *   Youtube/Codecademy
 *   UC Irvine
 *   Udemy
 
-#### **Rust**
+### **Rust**
 
 *   Microsoft Learn
 *   Youtube
@@ -341,3 +362,4 @@ Although my suggestion is to learn the fundamental language-agnostic skills like
 #### **Unit testing**
 
 *   Scrimba (Free)
+*   Class Central
