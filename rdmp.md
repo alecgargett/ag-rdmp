@@ -78,7 +78,7 @@ If I had to pick a small number of resources for getting started in each of thes
 
 ### **Fundamentals first**
 
-Although these skills can be learnt in many different orders, rather than starting with a specific coding language, I'd recommend starting with the fundamentals that everyone needs to know like yout text editor features and version control. Other roadmaps tend to delay the learning of these fundamental skills or even forget to mention some of them entirely, but since they are essential to the workflow of any language, you may as well get them right from the start.
+Although these skills can be learnt in many different orders, rather than starting with a specific coding language, I'd recommend starting with the fundamentals that everyone needs to know like your text editor features and version control. Other roadmaps tend to delay the learning of these fundamental skills or even forget to mention some of them entirely, but since they are essential to the workflow of any language, you may as well get them right from the start.
 
 ### **Move on as soon as you like**
 
@@ -92,11 +92,11 @@ If you don't know what a command-line interface is, or anything else mentioned i
 
 #### **Front-end for back-end developers**
 
-If you're more interested in the back-end, you might start coming across skills that you don't feel you need once you get to the front-end skills section. That's where it becomes a choose your own adventure, but honestly I think even if you want to become a back-end developer, you need to know the absolute basics of HTML and CSS, and it isn't a bad place to start. As a markup language, HTML is much simpler than even python, so it's a great language to practice with while you're still mastering the basics of VC Code and Version Control. Building your own portoflio website to show off your back-end skills is not necessary to find back-end developer work, but it's not a bad idea, and if you want to do it, it will require front-end skills. Meanwhile, you don't need back-end skills to show off your front-end skills. You can immediately start showing off what you've learnt with GitHub pages for example.
+If you're more interested in the back-end, you might start coming across skills that you don't feel you need once you get to the front-end skills section. That's where it becomes a choose your own adventure, but honestly I think even if you want to become a back-end developer, you need to know the absolute basics of HTML and CSS, and it isn't a bad place to start. As a markup language, HTML is much simpler than even python, so it's a great language to practice with while you're still mastering the basics of VC Code and Version Control. Building your own portfolio website to show off your back-end skills is not necessary to find back-end developer work, but it's not a bad idea, and if you want to do it, it will require front-end skills. Meanwhile, you don't need back-end skills to show off your front-end skills. You can immediately start showing off what you've learnt with GitHub pages for example.
 
 #### **Back-end for front-end developers**
 
-On the other hand, the corresponding argument can also be made that even if you want to be a front-end web developer, learning python fairly early on isn't a bad idea in order to [automate the boring stuff](https://automatetheboringstuff.com/>). In addition, there are high quality freemimum courses in Python program from universities like Harvard and MIT, some of which also serve as a good general introduction to computer science. I'd still lean towards learning HTML and CSS first because it's probably easier for most people, but it's not a bad idea to learn python early on too.
+On the other hand, the corresponding argument can also be made that even if you want to be a front-end web developer, learning python fairly early on isn't a bad idea in order to [automate the boring stuff](https://automatetheboringstuff.com/>). In addition, there are high quality freemium courses in Python program from universities like Harvard and MIT, some of which also serve as a good general introduction to computer science. I'd still lean towards learning HTML and CSS first because it's probably easier for most people, but it's not a bad idea to learn python early on too.
 
 Another back-end skill you may want to learn fairly early on even if you want to be a front-end developer is SQL, if only because for many entry level positions this seems to be the skill that help the most for getting the job, and you can always keep learning front-end development in your own time if you aren't learning enough on the job.
 
@@ -168,13 +168,13 @@ or if you prefer video that much, from some of these videos:
 
 [Cheat sheet](https://twitter.com/AGDCode/status/1597119605591670785)
 
-[Creating fies with cmd](https://techpp.com/2021/08/22/create-file-using-command-prompt-guide/)
+[Creating files with cmd](https://techpp.com/2021/08/22/create-file-using-command-prompt-guide/)
 
 Tip: Windows often has more than one version of PowerShell installed. Searching for "pswh" instead of "PowerShell" will generally bring up the more recent version.
 
 ### **Source-code editors**
 
-Some roadmaps neglect to mention that learning to use a code editor efficiently is a non-trivial skill, and since you'll be using some kind of editor from the beginning, you may as well learn to use it efficiently right at the start, perhaps before you've even started to learn a coding language such as a programming language or markup language, or perhaps simulatenously with learning the basics of your chosen language. HTML is a great choice for initial practice in a code editor.
+Some roadmaps neglect to mention that learning to use a code editor efficiently is a non-trivial skill, and since you'll be using some kind of editor from the beginning, you may as well learn to use it efficiently right at the start, perhaps before you've even started to learn a coding language such as a programming language or markup language, or perhaps simultaneously with learning the basics of your chosen language. HTML is a great choice for initial practice in a code editor.
 
 #### **VS Code**
 
@@ -182,7 +182,7 @@ VS code is what is generally recommended, and with good reasons. It is a great e
 
 #### **Other source-code editors**
 
-There are basically two types of alternative to VS Code that are meaningully different in functionality: command line editors that are desinged to be used without a mouse like Vim and NeoVim, and IDEs like those from JetBrains, which are designed to offer more features (that you probably won't need as a beginner), and are often premium paid products. The best bet, until you have a very good reason not to, is to use VS Code.
+There are basically two types of alternative to VS Code that are meaningfully different in functionality: command line editors that are designed to be used without a mouse like Vim and NeoVim, and IDEs like those from JetBrains, which are designed to offer more features (that you probably won't need as a beginner), and are often premium paid products. The best bet, until you have a very good reason not to, is to use VS Code.
 
 ### **Version Control**
 
@@ -195,7 +195,7 @@ Complete the following steps, using documentation or tutorials where necessary.
 3. Create a new repository on GitHub
 4. Follow a tutorial on how to set up Git on your machine through your command line.
 5. Link Git to your GitHub account and clone your GitHub repository down to your machine.
-6. Follow a tutorial like Colt Steele's that shows how to do things in the opposite order, initialising an account and a repo on the machine and pushing it up to GitHub.
+6. Follow a tutorial like Colt Steele's that shows how to do things in the opposite order, initializing an account and a repo on the machine and pushing it up to GitHub.
 7. Complete a course like Colt Steele's that goes into detail about using both.
 
 If you don't want to use GitHub at all, just do a Git-only tutorial, like the first half of Colt Steele's course, but I wouldn't recommend this.
@@ -205,7 +205,7 @@ If you don't want to use GitHub at all, just do a Git-only tutorial, like the fi
 *   YouTube/FreeCodeCamp/Microsoft Learn (Free)
 *   Colt Steele (Free/Paid)
 
-###3 Resources:
+### Resources:
 
 *   https://git-scm.com/
 *   https://gitignore.io/
