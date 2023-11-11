@@ -128,6 +128,11 @@ Here are some of the best resources overall for coding skills. You can check the
 *   Leetcode
 *   Hackerrank
 *   Neetcode
+*   GeekForGeeks
+*   CodingStudio
+*   HackerEarth
+*   CodeWars
+*   W3Schools
 
 ### **Command-line interfaces**
 
@@ -223,6 +228,9 @@ Although my suggestion is to learn the fundamental language-agnostic skills like
 
 **Front-end skills**
 ----------------
+
+[Thread on some additional project tutorial & challenge resources](https://twitter.com/Div_pradeep/status/1598201600568279040)
+
 ## **HTML, CSS and Javascript**
 
 #### **References**:
@@ -278,8 +286,8 @@ Although my suggestion is to learn the fundamental language-agnostic skills like
 *   YouTube project tutorials and courses
 *   Microsoft Learn (Free)
 *   IBM (Freemium)
-*   Stanford Computer Science 101
-*   Harvard University (Python and Javascript) (Freemium)
+*   Stanford Computer Science 101 (24-36 hours)
+*   Harvard University (Python and Javascript) (Freemium) (70-110 hours)
 *   YouTube projects
 *   Udemy projects
 *   [https://javascript30.com](https://javascript30.com) (Build 30 things in 30 days with 30 tutorials)
@@ -299,15 +307,28 @@ Although my suggestion is to learn the fundamental language-agnostic skills like
 *   Official resources
 *   YouTube
 
+**Kotlin**
+----------
+
+*   Android official resources
+*   YouTube including Free Code Camp
+*   Class Central
+
 **Back-end skills**
 --------------------------------
 
 ### **Python**
 
 *   Harvard University (Freemium)
+    *   CS50P (30-90 hours)
+    *   Python & Javascript (70-110 hours)
 *   MIT (Freemium)
 *   Scrimba (Free)
-*   Udemy projects
+*   Automate the boring stuff
+*   Project ideas: automate bold headers in markdown
+*   FreeCodeCamp x 2
+*   Angela Yu (YouTube, 100 Days Of Code)
+*   Fred Baptiste & other Udemy projects
 
 ### **SQL**
 
@@ -315,6 +336,7 @@ Although my suggestion is to learn the fundamental language-agnostic skills like
 *   FreeCodeCamp (Free)
 *   SoloLearn (Freemium)
 *   Stanford University (Freemium)
+    *   Intro (16-20 hours)
 *   Data Camp (Paid)
 *   Udemy projects
 
